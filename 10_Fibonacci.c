@@ -1,7 +1,7 @@
 /*
 Author: Mir Saeed Mozin
 Creation Date; 16th March 2021
-Program purpose: To generate fibonacci series upto a given number 
+Program purpose: To generate fibonacci series upto a given number
 */
 #include <stdio.h> //Pre-process directive to include standard input and output functions header file
 int main(){ //Main function
