@@ -1,6 +1,6 @@
 /*
 Author: Mir Saeed Mozin
-Creation Date: 21th March 2021
+Creation Date: 21st March 2021
 Program purpose: To perform matrix multiplication
 */
 #include <stdio.h> //Pre-processor directive to include standard input and output functions header file
