@@ -23,5 +23,5 @@ int main(){ //Main function
     printf("Fibonacci Series: ");    
     printf("0\t1\t"); //For printing 0 and 1  
     printFibonacci(n-2); //Because 2 numbers are already printed    
-  return 0; //Return function
- }    
+    return 0; //Return function
+}    

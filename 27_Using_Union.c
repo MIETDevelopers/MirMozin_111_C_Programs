@@ -11,7 +11,7 @@ union student{
 	float percentage;
 };
 int main(){ //Main function
-	//Declaring recorf1 and record2 variables for union
+	//Declaring record1 and record2 variables for union
 	union student record1; 
 	union student record2;
 	printf("Union record 1 values example:\n"); //Printf function calling
@@ -36,5 +36,6 @@ int main(){ //Main function
 	//For Percentage
 	record2.percentage = 91.50;
 	printf("Percentage: %.2f\n", record2.percentage);
-return 0; //Return function
+	
+	return 0; //Return function
 }
