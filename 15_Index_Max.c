@@ -28,4 +28,4 @@ int main(){ //Main function
 	}
 	printf("The maximum number is %d at index: [%d]\n", maxNum, maxIndex); //For printing the maximum number and its index
 	return 0; //Return function
-}
+} 
