@@ -1,3 +1,8 @@
+/*
+Author: Mir Saeed Mozin
+Creation Date: 26th March 2021
+Program Purpose: To write some content in a .csv file
+*/
 #include <stdio.h>   //Pre-processor directive to include standard input and output functions header file
 #include<string.h>	 //Pre-processor directive to include string functions header file
 void create_marks_csv(char *filename){
