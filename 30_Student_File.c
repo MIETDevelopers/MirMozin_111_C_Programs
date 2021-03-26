@@ -21,11 +21,11 @@ int main(){  //Main function
 		//For reading the student information
 		printf("Enter student details!\n");
 		printf("Enter Name: ");
-		gets(a[i].name);
+		gets(a[i].name);    //For name
 		printf("Enter Roll Number: ");
-		scanf("%d",&a[i].rollNo);
-		printf("Enter Total Marks: ");
-		scanf("%d",&a[i].marks);
+		scanf("%d",&a[i].rollNo);   //For roll number
+		printf("Enter Total Marks: ");    
+		scanf("%d",&a[i].marks);    //For marks
 	}
 	fwrite(a, sizeof(a), 1, fptr);   //For writing data to the file opened by fopen function
 	fclose(fptr);  
@@ -35,7 +35,7 @@ int main(){  //Main function
 	//For loop to print the entered information
 	for (i=0; i<1; ++i) 
 	{
-		printf("Name: %s\n",b[i].name); //For printing the student information
+		printf("Name: %s\n",b[i].name); 
 		printf("Roll number: %d\n", b[i].rollNo);
 		printf("Total Marks: %d\n",b[i].marks);
 	}
