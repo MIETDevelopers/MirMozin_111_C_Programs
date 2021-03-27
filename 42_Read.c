@@ -13,7 +13,7 @@ struct s{	 	//Using structures to create a user defined data type
 	FILE *fptr;
 	int i;
 	//For opening the file
-	fptr=fopen("C:\\Users\\Mehh's\\Desktop\\C_Programs\\MirSaeed_111_C_Programs_Repository\\42_Read.csv","wb"); //Opening the file from the location.
+	fptr=fopen("C:\\Users\\Mehh's\\Desktop\\C_Programs\\MirSaeed_111_C_Programs_Repository\\42_Read.csv","wb"); //Opening the file
 	for (i=0; i<1; ++i) 
 	{
 		fflush(stdin);
