@@ -6,7 +6,7 @@ Program purpose: To demonstrate the use of various string operations by a simple
 #include<stdio.h>     //Pre-processor directive to include standard input and output functions header file
 #include<string.h>    //Pre-processor directive to include string operations header file 
 int main(){		//Main function
-	//Use of string function to copy one string to another
+	//Use of a string function to copy one string to another
 	char str1[] = "Hello World!";
 	char str2[] = "String Operations";
 	char str3[40];
