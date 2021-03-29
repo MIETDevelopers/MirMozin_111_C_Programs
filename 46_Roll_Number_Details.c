@@ -7,8 +7,8 @@ Program purpose: To interact with user asking any student's ID and print his/her
 #include <stdlib.h>		//Pre-processor directive to include standard library functions header file	
 struct s{  //Using structures to create a user defined data type
 	char name[50];
-    int roll;
-    float attendance;
+    	int roll;
+    	float attendance;
 };
 int main(){    //Main function
 	struct s b[50];
