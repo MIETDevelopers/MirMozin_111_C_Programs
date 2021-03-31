@@ -31,5 +31,5 @@ int main(){ //Main function
 	    default: //Default case if an incorrect operator is entered
         	printf("Error! Wrong operator");
     }
-    return 0; //Return function
+    return 0; 	//Return function
 }
