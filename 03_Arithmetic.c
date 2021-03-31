@@ -15,21 +15,21 @@ int main(){ //Main function
 	printf("Enter second number: \n");
 	scanf("%lf", &number2);
     //Switch case for performing calculation and printing the result based on the entered operator and numbers
-    switch (operator) {
-    case '+': //Addition case
-        printf("%.1lf + %.1lf = %.1lf", number1, number2, number1+number2);
-        break;
-    case '-': //Subtraction case
-        printf("%.1lf - %.1lf = %.1lf", number1, number2, number1-number2);
-        break;
-    case '*': //Multiplication case
-        printf("%.1lf * %.1lf = %.1lf", number1, number2, number1*number2);
-        break;
-    case '/': //Division case
-        printf("%.1lf / %.1lf = %.1lf", number1, number2, number1/number2);
-        break;
-    default: //Default case if an incorrect operator is entered
-        printf("Error! Wrong operator");
+    switch (operator){
+	    case '+': //Addition case
+		printf("%.1lf + %.1lf = %.1lf", number1, number2, number1+number2);
+		break;
+	    case '-': //Subtraction case
+		printf("%.1lf - %.1lf = %.1lf", number1, number2, number1-number2);
+		break;
+	    case '*': //Multiplication case
+		printf("%.1lf * %.1lf = %.1lf", number1, number2, number1*number2);
+		break;
+	    case '/': //Division case
+		printf("%.1lf / %.1lf = %.1lf", number1, number2, number1/number2);
+		break;
+	    default: //Default case if an incorrect operator is entered
+        	printf("Error! Wrong operator");
     }
     return 0; //Return function
 }
